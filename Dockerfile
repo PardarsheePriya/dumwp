@@ -5,7 +5,7 @@ FROM node:18
 WORKDIR /app
 
 # Copy package files to install dependencies
-COPY package*.json ./
+COPY package*.json ./ 
 
 # Update packages and install required tools
 RUN apt-get update && apt-get install -y \
@@ -22,6 +22,9 @@ RUN npm install -g @plasmicapp/cli
 # Copy the rest of the application code and script
 COPY . .
 
+# Copy script.sh specifically to /app
+COPY ./script.sh /app/script.sh
+
 # Make script.sh executable
 RUN chmod +x /app/script.sh
 
@@ -31,8 +34,18 @@ ARG REPO_URL
 ARG REPO_NAME
 ARG BRANCH
 
-# Run the script with required arguments
-RUN /app/script.sh --repourl "${REPO_URL}" --reponame "${REPO_NAME}" --branch "${BRANCH}" --token "${GITHUB_TOKEN}"
+# Set environment variables from build arguments
+ENV REPO_URL=${REPO_URL} \
+    REPO_NAME=${REPO_NAME} \
+    BRANCH=${BRANCH} \
+    GITHUB_TOKEN=${GITHUB_TOKEN}
+
+# Convert line endings to Unix-style before running the script
+RUN apt-get install -y dos2unix && dos2unix /app/script.sh
+
+# Run the script
+RUN /bin/bash /app/script.sh
+
 
 # Build the application
 RUN npm run build
