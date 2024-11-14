@@ -1,0 +1,189 @@
+{
+  "props": [
+    {
+      "name": "Cards Color",
+      "type": "color",
+      "value": "#FFB6B2",
+      "category": "color",
+      "meta": {
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "id": "YronPpRQ4Oab"
+      }
+    },
+    {
+      "name": "Cards Color",
+      "type": "color",
+      "value": "#FFB6B2",
+      "category": "color",
+      "meta": {
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "id": "M5xpUX7sl4dt"
+      }
+    },
+    {
+      "name": "DummyWPBasicColor",
+      "type": "color",
+      "value": "#FC573B",
+      "category": "color",
+      "meta": {
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "id": "m7D8drk_ir_p"
+      }
+    },
+    {
+      "name": "DummyWPBasicColor",
+      "type": "color",
+      "value": "#FC573B",
+      "category": "color",
+      "meta": {
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "id": "OHS4W3jM4QS0"
+      }
+    },
+    {
+      "name": "NewDummyWPBtnColor",
+      "type": "color",
+      "value": "#FEDDDB",
+      "category": "color",
+      "meta": {
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "id": "lguFfFArkavL"
+      }
+    },
+    {
+      "name": "NewDummyWPBtnColor",
+      "type": "color",
+      "value": "#FEDDDB",
+      "category": "color",
+      "meta": {
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "id": "soKP5ST2wqmp"
+      }
+    },
+    {
+      "name": "NewDummyWPTxtColor",
+      "type": "color",
+      "value": "#3C3B4D",
+      "category": "color",
+      "meta": {
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "id": "_A5ZyLxJCdjP"
+      }
+    },
+    {
+      "name": "NewDummyWPTxtColor",
+      "type": "color",
+      "value": "#3C3B4D",
+      "category": "color",
+      "meta": {
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "id": "gMvFvNb_U3_F"
+      }
+    },
+    {
+      "name": "System: Bg Container",
+      "type": "color",
+      "value": "var(--antd-colorBgContainer)",
+      "category": "color",
+      "meta": {
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "id": "VtA3t0Uk2vRc"
+      }
+    },
+    {
+      "name": "System: Bg Container",
+      "type": "color",
+      "value": "var(--antd-colorBgContainer)",
+      "category": "color",
+      "meta": {
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "id": "h9QXvPHo5BGu"
+      }
+    },
+    {
+      "name": "dummyWPDefText",
+      "type": "color",
+      "value": "#1D1D28",
+      "category": "color",
+      "meta": {
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "id": "z8GDrvg8Q8HB"
+      }
+    },
+    {
+      "name": "dummyWPDefText",
+      "type": "color",
+      "value": "#1D1D28",
+      "category": "color",
+      "meta": {
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "id": "IIHSJDM_k673"
+      }
+    },
+    {
+      "name": "dummyWPNewColor",
+      "type": "color",
+      "value": "#FF8A83",
+      "category": "color",
+      "meta": {
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "id": "RQ0B8ee5qqoS"
+      }
+    },
+    {
+      "name": "dummyWPNewColor",
+      "type": "color",
+      "value": "#FF8A83",
+      "category": "color",
+      "meta": {
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "id": "MJMMLxg_LuHu"
+      }
+    },
+    {
+      "name": "dumywp-faded-theme",
+      "type": "color",
+      "value": "#FFF6F5",
+      "category": "color",
+      "meta": {
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "id": "91TE0kbT8NxI"
+      }
+    },
+    {
+      "name": "dumywp-faded-theme",
+      "type": "color",
+      "value": "#FFF6F5",
+      "category": "color",
+      "meta": {
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "id": "f7hFq13z6dM9"
+      }
+    },
+    {
+      "name": "newDummyOpacityColor",
+      "type": "color",
+      "value": "#1D1D28BF",
+      "category": "color",
+      "meta": {
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "id": "ufYE9yyQViiL"
+      }
+    },
+    {
+      "name": "newDummyOpacityColor",
+      "type": "color",
+      "value": "#1D1D28BF",
+      "category": "color",
+      "meta": {
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "id": "ONhVHEytJrHV"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

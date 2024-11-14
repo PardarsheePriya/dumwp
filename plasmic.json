@@ -1,0 +1,1192 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "displayName": "hostless-reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_slick/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "SliderWrapper",
+          "displayName": "hostless-slider",
+          "componentImportPath": "@plasmicpkgs/react-slick",
+          "helper": {
+            "name": "sliderHelpers",
+            "importPath": "@plasmicpkgs/react-slick"
+          }
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "5dGW8Awro3qq8Hh5MveXLP",
+      "projectApiToken": "wVHvHSTRyoO1MQddr5ypmW8AfwiMMy7h0Iaj4Q2YmYLLEo2A4L6pLn8Fydm8wQkTAJV9uAD5bJPo8bmGg",
+      "projectName": "lottie-react",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/lottie_react/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "BPNsJ2qis6",
+          "name": "LottieWrapper",
+          "displayName": "hostless-lottie-react",
+          "componentImportPath": "@plasmicpkgs/lottie-react"
+        },
+        {
+          "id": "vbTFHH9P-cuM",
+          "name": "AsyncLottieWrapper",
+          "displayName": "hostless-lottie-async-react",
+          "componentImportPath": "@plasmicpkgs/lottie-react"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "displayName": "hostless-iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "displayName": "hostless-html-video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "displayName": "hostless-embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "displayName": "hostless-data-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "zlBHsvkFlN",
+          "name": "ConditionGuard",
+          "displayName": "hostless-condition-guard",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "K-mWGqrHefEp",
+          "name": "SideEffect",
+          "displayName": "hostless-side-effect",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "SpkzmXJqg27p",
+          "name": "Timer",
+          "displayName": "hostless-timer",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "v71riRuApXUtRMoadrNkLo",
+      "projectApiToken": "sxCIgOCWEs88UjyjBqhUQoKf1wb6MztMJbDcbCr0qAggHYS0Xbl9U7QLyGSKmAAW2vJGSDs4ejF09GVvE7DIkA",
+      "projectName": "NewDummyWp BP",
+      "version": "latest",
+      "cssFilePath": "plasmic/new_dummy_wp_bp/plasmic.module.css",
+      "components": [
+        {
+          "id": "NtypUgAyJn2G",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "1MK_4ANsnZoy",
+          "name": "DummyWpContainer",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicDummyWpContainer.jsx",
+          "importSpec": {
+            "modulePath": "DummyWpContainer.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicDummyWpContainer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "lHAr2mrvTa45",
+          "name": "DummyWpFooter",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicDummyWpFooter.jsx",
+          "importSpec": {
+            "modulePath": "DummyWpFooter.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicDummyWpFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vssiSWnI8sS0",
+          "name": "ChallengesBar",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicChallengesBar.jsx",
+          "importSpec": {
+            "modulePath": "ChallengesBar.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicChallengesBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "DVyswejEmoUn",
+          "name": "Card",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicCard.jsx",
+          "importSpec": {
+            "modulePath": "Card.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "7OxN6t_LaNTa",
+          "name": "FeaturesComponent",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicFeaturesComponent.jsx",
+          "importSpec": {
+            "modulePath": "FeaturesComponent.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicFeaturesComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "fVTLLrX9doBb",
+          "name": "About",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicAbout.jsx",
+          "importSpec": {
+            "modulePath": "../pages/about.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/about"
+        },
+        {
+          "id": "lLLvXoD4KlOk",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicContact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/contact"
+        },
+        {
+          "id": "l74vlftrAHIU",
+          "name": "Policy",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicPolicy.jsx",
+          "importSpec": {
+            "modulePath": "../pages/privacy.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicPolicy.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/privacy"
+        },
+        {
+          "id": "GO0CwQa8BZuA",
+          "name": "PoliciesComponent",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicPoliciesComponent.jsx",
+          "importSpec": {
+            "modulePath": "PoliciesComponent.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicPoliciesComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "21X_GhGajvwn",
+          "name": "Terms",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicTerms.jsx",
+          "importSpec": {
+            "modulePath": "../pages/terms.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicTerms.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/terms"
+        },
+        {
+          "id": "uWZjqjC_xF90",
+          "name": "CustomSelector",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicCustomSelector.jsx",
+          "importSpec": {
+            "modulePath": "CustomSelector.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicCustomSelector.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UNGYLQFnXOan",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicCheckbox.jsx",
+          "importSpec": {
+            "modulePath": "Checkbox.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "oaoZp38o8pD7",
+          "name": "SliderGrid",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicSliderGrid.jsx",
+          "importSpec": {
+            "modulePath": "SliderGrid.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicSliderGrid.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6nd_nSAFxLwI",
+          "name": "Links3",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicLinks3.jsx",
+          "importSpec": {
+            "modulePath": "Links3.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicLinks3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sXon_xjy5alk",
+          "name": "Links4",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicLinks4.jsx",
+          "importSpec": {
+            "modulePath": "Links4.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicLinks4.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SclxhtuUZUg8",
+          "name": "LeftSliderLinks",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicLeftSliderLinks.jsx",
+          "importSpec": {
+            "modulePath": "LeftSliderLinks.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicLeftSliderLinks.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "xQzUqu3xu4Su",
+          "name": "FeaturesComponent2",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicFeaturesComponent2.jsx",
+          "importSpec": {
+            "modulePath": "FeaturesComponent2.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicFeaturesComponent2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mWO3je1jOEkN",
+          "name": "FeaturesComponent3",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicFeaturesComponent3.jsx",
+          "importSpec": {
+            "modulePath": "FeaturesComponent3.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicFeaturesComponent3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "eyvy3JgudzJB",
+          "name": "ForAuthors",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicForAuthors.jsx",
+          "importSpec": {
+            "modulePath": "../pages/for-authors.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicForAuthors.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/for-authors"
+        },
+        {
+          "id": "qbkAqZS0juQd",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicHome.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "uuh5_bVU_HhW",
+          "name": "FavIcon",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicFavIcon.jsx",
+          "importSpec": {
+            "modulePath": "FavIcon.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicFavIcon.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-gkf1XoWfci_",
+          "name": "AdditionalSeoData",
+          "type": "managed",
+          "projectId": "v71riRuApXUtRMoadrNkLo",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_bp/PlasmicAdditionalSeoData.jsx",
+          "importSpec": {
+            "modulePath": "AdditionalSeoData.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_bp/PlasmicAdditionalSeoData.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "HKHd4WtpiKJA",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__CheckSvg.jsx"
+        },
+        {
+          "id": "JAqk2d9jM2EV",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "oM0mppNHioEi",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "gRCMvuFQokj-",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "TqAjub0D9hjU",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon4.jsx"
+        },
+        {
+          "id": "6EfI1uDyNlGV",
+          "name": "ButtonArrowSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__ButtonArrowSvg.jsx"
+        },
+        {
+          "id": "X15sSMbj3c3_",
+          "name": "BulletDashSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__BulletDashSvg.jsx"
+        },
+        {
+          "id": "p4Tx9JwYeM42",
+          "name": "FeatureStarSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__FeatureStarSvg.jsx"
+        },
+        {
+          "id": "UMl4SE9iGCel",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon5.jsx"
+        },
+        {
+          "id": "9NBfrpbAEG50",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon6.jsx"
+        },
+        {
+          "id": "F2t5SM0zQj74",
+          "name": "Icon7Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon7.jsx"
+        },
+        {
+          "id": "T4tKYHJn1BX5",
+          "name": "SquareMinusSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__SquareMinusSvg.jsx"
+        },
+        {
+          "id": "NhrC4xyvcZcv",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon8.jsx"
+        },
+        {
+          "id": "6kxE7QDAVc3R",
+          "name": "Icon9Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon9.jsx"
+        },
+        {
+          "id": "XyDZ2fTKSVh3",
+          "name": "Icon10Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon10.jsx"
+        },
+        {
+          "id": "-P86FMuNyQaY",
+          "name": "Icon11Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_bp/icons/PlasmicIcon__Icon11.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "dv22w1Oyj5d8",
+          "name": "wp_image.png",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/wpImagePng.png"
+        },
+        {
+          "id": "ZZJnTkeCv7NQ",
+          "name": "image",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/image.svg"
+        },
+        {
+          "id": "TcUksv-TYLei",
+          "name": "Group 365 (1).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/group3651Svg.svg"
+        },
+        {
+          "id": "GcRps0zkzi5_",
+          "name": "Group 365 (2).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/group3652Svg.svg"
+        },
+        {
+          "id": "b4a9oEsSM73z",
+          "name": "Group 365 (3).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/group3653Svg.svg"
+        },
+        {
+          "id": "9dvb65cbuUo8",
+          "name": "Group 365 (4).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/group3654Svg.svg"
+        },
+        {
+          "id": "vhFpaWxx8b_W",
+          "name": "image 2",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/image2.svg"
+        },
+        {
+          "id": "qqHGgaxYZFAS",
+          "name": "wordpress.svg",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/wordpressSvg.svg"
+        },
+        {
+          "id": "KGF6X84BIBZT",
+          "name": "wordpress (2).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/wordpress2Svg.svg"
+        },
+        {
+          "id": "aACOrUvnHCu3",
+          "name": "image 3",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/image3.svg"
+        },
+        {
+          "id": "I9qvTBiPPRkR",
+          "name": "image 4",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/image4.svg"
+        },
+        {
+          "id": "XMmrWOtAoHan",
+          "name": "image 5",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/image5.svg"
+        },
+        {
+          "id": "K8T-MbS3s73q",
+          "name": "image 6",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/image6.svg"
+        },
+        {
+          "id": "8hdcCYRn88Ec",
+          "name": "image 7",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/image7.svg"
+        },
+        {
+          "id": "zlFIcg9eyX5d",
+          "name": "wp_image_ipad.png",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/wpImageIpadPng.png"
+        },
+        {
+          "id": "RO0yYGU40mmd",
+          "name": "hero-small.svg",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/heroSmallSvg.svg"
+        },
+        {
+          "id": "uep3f1t7SB_X",
+          "name": "favicon.png",
+          "filePath": "../public/plasmic/new_dummy_wp_bp/images/faviconPng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "dtE9tYnXq9Ja",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "mtQ6zxc6Gmh1",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "eojHsTxh2CznYQUhCcvLfa",
+      "projectApiToken": "Bpj2o94xjP8Qd93DrbqDsDneJnJnlrXqHcR2AmMtWfpxAkqjawFyzT2jN51IQdvhlyppQwsqTQbXzCcomx9A",
+      "projectName": "NewDummyWp Version",
+      "version": "latest",
+      "cssFilePath": "plasmic/new_dummy_wp_version/plasmic.module.css",
+      "components": [
+        {
+          "id": "FPphkJzUvFls",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "LgX6if24X2q3",
+          "name": "DummyWpContainer",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicDummyWpContainer.jsx",
+          "importSpec": {
+            "modulePath": "DummyWpContainer.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicDummyWpContainer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ou4WpcxmNsUe",
+          "name": "DummyWpFooter",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicDummyWpFooter.jsx",
+          "importSpec": {
+            "modulePath": "DummyWpFooter.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicDummyWpFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Dz5_oQOY5Jgt",
+          "name": "ChallengesBar",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicChallengesBar.jsx",
+          "importSpec": {
+            "modulePath": "ChallengesBar.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicChallengesBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "udIG5vtaNYEp",
+          "name": "Card",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicCard.jsx",
+          "importSpec": {
+            "modulePath": "Card.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "z6M5ypOYrVfI",
+          "name": "FeaturesComponent",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicFeaturesComponent.jsx",
+          "importSpec": {
+            "modulePath": "FeaturesComponent.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicFeaturesComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pIRLaRVUlPAY",
+          "name": "About",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicAbout.jsx",
+          "importSpec": {
+            "modulePath": "../pages/about.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/about"
+        },
+        {
+          "id": "cPgpe8hlD91L",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicContact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/contact"
+        },
+        {
+          "id": "0W7SIcOmgphk",
+          "name": "Policy",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicPolicy.jsx",
+          "importSpec": {
+            "modulePath": "../pages/privacy.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicPolicy.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/privacy"
+        },
+        {
+          "id": "p_biNdkGhZq5",
+          "name": "PoliciesComponent",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicPoliciesComponent.jsx",
+          "importSpec": {
+            "modulePath": "PoliciesComponent.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicPoliciesComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "miaUoARPWx1i",
+          "name": "Terms",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicTerms.jsx",
+          "importSpec": {
+            "modulePath": "../pages/terms.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicTerms.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/terms"
+        },
+        {
+          "id": "ORO4GmIzqHEm",
+          "name": "CustomSelector",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicCustomSelector.jsx",
+          "importSpec": {
+            "modulePath": "CustomSelector.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicCustomSelector.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "09-i9Aex3saK",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicCheckbox.jsx",
+          "importSpec": {
+            "modulePath": "Checkbox.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "a4iA7-UlTR9y",
+          "name": "SliderGrid",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicSliderGrid.jsx",
+          "importSpec": {
+            "modulePath": "SliderGrid.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicSliderGrid.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NzJPtJhyewn6",
+          "name": "Links3",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicLinks3.jsx",
+          "importSpec": {
+            "modulePath": "Links3.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicLinks3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "A5bn7aI-dAhg",
+          "name": "Links4",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicLinks4.jsx",
+          "importSpec": {
+            "modulePath": "Links4.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicLinks4.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nyCIJhwBoCru",
+          "name": "LeftSliderLinks",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicLeftSliderLinks.jsx",
+          "importSpec": {
+            "modulePath": "LeftSliderLinks.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicLeftSliderLinks.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "RQZlCY2WrfDl",
+          "name": "FeaturesComponent2",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicFeaturesComponent2.jsx",
+          "importSpec": {
+            "modulePath": "FeaturesComponent2.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicFeaturesComponent2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "g83b7jikKEoj",
+          "name": "FeaturesComponent3",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicFeaturesComponent3.jsx",
+          "importSpec": {
+            "modulePath": "FeaturesComponent3.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicFeaturesComponent3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "yEKu53hacq0l",
+          "name": "ForAuthors",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicForAuthors.jsx",
+          "importSpec": {
+            "modulePath": "../pages/for-authors.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicForAuthors.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/for-authors"
+        },
+        {
+          "id": "RstHfeSl0BUf",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicHome.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "xI3_MKlkfYOf",
+          "name": "FavIcon",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicFavIcon.jsx",
+          "importSpec": {
+            "modulePath": "FavIcon.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicFavIcon.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qJYR5wLO6ptv",
+          "name": "AdditionalSeoData",
+          "type": "managed",
+          "projectId": "eojHsTxh2CznYQUhCcvLfa",
+          "renderModuleFilePath": "plasmic/new_dummy_wp_version/PlasmicAdditionalSeoData.jsx",
+          "importSpec": {
+            "modulePath": "AdditionalSeoData.jsx"
+          },
+          "cssFilePath": "plasmic/new_dummy_wp_version/PlasmicAdditionalSeoData.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "C3CtLhWE-hgK",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__CheckSvg.jsx"
+        },
+        {
+          "id": "KSBHOXhYY2Jr",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "Gx-7WKM7KnNT",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "lDV7mLCf414A",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "1gawucgcODnk",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon4.jsx"
+        },
+        {
+          "id": "i4bSa-U_DSIK",
+          "name": "ButtonArrowSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__ButtonArrowSvg.jsx"
+        },
+        {
+          "id": "QrteRULFi0ij",
+          "name": "BulletDashSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__BulletDashSvg.jsx"
+        },
+        {
+          "id": "QlSsU1e6MJsJ",
+          "name": "FeatureStarSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__FeatureStarSvg.jsx"
+        },
+        {
+          "id": "dJv2GNb2Pwje",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon5.jsx"
+        },
+        {
+          "id": "NnotYKn-ehMk",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon6.jsx"
+        },
+        {
+          "id": "QHGIlMCwCVdd",
+          "name": "Icon7Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon7.jsx"
+        },
+        {
+          "id": "AAMnRadjlp1F",
+          "name": "SquareMinusSvgIcon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__SquareMinusSvg.jsx"
+        },
+        {
+          "id": "TIJTew1xXiTR",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon8.jsx"
+        },
+        {
+          "id": "eG81i3pUn5Ov",
+          "name": "Icon9Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon9.jsx"
+        },
+        {
+          "id": "nbXNMMjZPdEJ",
+          "name": "Icon10Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon10.jsx"
+        },
+        {
+          "id": "qnwQlckbsml5",
+          "name": "Icon11Icon",
+          "moduleFilePath": "plasmic/new_dummy_wp_version/icons/PlasmicIcon__Icon11.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "fi5WhpMz5Mhd",
+          "name": "wp_image.png",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/wpImagePng.png"
+        },
+        {
+          "id": "N6T9RjOZQnPU",
+          "name": "image",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/image.svg"
+        },
+        {
+          "id": "tEFT4FHFwYjn",
+          "name": "Group 365 (1).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/group3651Svg.svg"
+        },
+        {
+          "id": "sT1sxFt7Ftc8",
+          "name": "Group 365 (2).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/group3652Svg.svg"
+        },
+        {
+          "id": "t_322_flbVd3",
+          "name": "Group 365 (3).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/group3653Svg.svg"
+        },
+        {
+          "id": "GSXM4HXUYoGt",
+          "name": "Group 365 (4).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/group3654Svg.svg"
+        },
+        {
+          "id": "eTuwXVnajB-O",
+          "name": "image 2",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/image2.svg"
+        },
+        {
+          "id": "ovOiB-vdyPIZ",
+          "name": "wordpress.svg",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/wordpressSvg.svg"
+        },
+        {
+          "id": "pj6Q7Uog2KKq",
+          "name": "wordpress (2).svg",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/wordpress2Svg.svg"
+        },
+        {
+          "id": "31trXtGswtqn",
+          "name": "image 3",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/image3.svg"
+        },
+        {
+          "id": "DdfLk45JIZJD",
+          "name": "image 4",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/image4.svg"
+        },
+        {
+          "id": "quPoHwdjsTc6",
+          "name": "image 5",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/image5.svg"
+        },
+        {
+          "id": "DAZXGdxkeG2p",
+          "name": "image 6",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/image6.svg"
+        },
+        {
+          "id": "ANHG7wiURQNy",
+          "name": "image 7",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/image7.svg"
+        },
+        {
+          "id": "4Ef-qVx9fpL0",
+          "name": "wp_image_ipad.png",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/wpImageIpadPng.png"
+        },
+        {
+          "id": "7cngh6p51R9y",
+          "name": "hero-small.svg",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/heroSmallSvg.svg"
+        },
+        {
+          "id": "ZOQ9O-61_l_a",
+          "name": "favicon.png",
+          "filePath": "../public/plasmic/new_dummy_wp_version/images/faviconPng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "Uyv_fM6T0kNB",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "y5QzCMEjOpNU",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "TTPhCg0gXwHK",
+        "name": "Screen",
+        "projectId": "v71riRuApXUtRMoadrNkLo",
+        "contextFilePath": "plasmic/new_dummy_wp_bp/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "NGPcOWd-604O",
+        "name": "Screen",
+        "projectId": "eojHsTxh2CznYQUhCcvLfa",
+        "contextFilePath": "plasmic/new_dummy_wp_version/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.334",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.334/dist/plasmic.schema.json"
+}
