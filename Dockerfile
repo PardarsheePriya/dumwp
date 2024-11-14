@@ -9,7 +9,6 @@ COPY package*.json ./
 
 # Update packages and install required tools
 RUN apt-get update && apt-get install -y \
-    npm \
     git \
     && apt-get clean
 
@@ -19,20 +18,18 @@ RUN npm install
 # Install Plasmic CLI globally
 RUN npm install -g @plasmicapp/cli
 
-# Copy the rest of the application code and script
-COPY . .
-
-# Make script.sh executable
-RUN chmod +x /app/script.sh
-
-# Define build arguments for secure access to private repo
-ARG GITHUB_TOKEN
+# Define build argument for the repository URL
 ARG REPO_URL
-ARG REPO_NAME
-ARG BRANCH
+ARG BRANCH=main
 
-# Run the script with required arguments
-RUN /app/script.sh --repourl "${REPO_URL}" --reponame "${REPO_NAME}" --branch "${BRANCH}" --token "${GITHUB_TOKEN}"
+# Clone the public repository
+RUN git clone -b $BRANCH $REPO_URL /app/project
+
+# Set working directory to the cloned repository
+WORKDIR /app/project
+
+# Install dependencies for the cloned project
+RUN npm install
 
 # Build the application
 RUN npm run build
