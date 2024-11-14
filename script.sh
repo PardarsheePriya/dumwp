@@ -13,13 +13,19 @@ check_required_arguments() {
     fi
 }
 
-# Debugging: Print environment variables to check if they're being passed correctly
-echo "Repository URL: $REPO_URL"
-echo "Repository Name: $REPO_NAME"
-echo "Branch: $BRANCH"
-echo "GitHub Token: $GITHUB_TOKEN"
+# Parse command-line arguments
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --repourl) REPO_URL="$2"; shift ;;
+        --reponame) REPO_NAME="$2"; shift ;;
+        --branch) BRANCH="$2"; shift ;;
+        --token) GITHUB_TOKEN="$2"; shift ;;
+        *) echo "Unknown parameter passed: $1"; usage ;;
+    esac
+    shift
+done
 
-# Check required arguments (no need to parse command-line arguments anymore)
+# Check required arguments
 check_required_arguments
 
 # Install Git if not already installed
@@ -41,7 +47,7 @@ if [[ -d "/var/www/$REPO_NAME" ]]; then
     git pull origin "$BRANCH"
 else
     echo "Cloning repository from the $BRANCH branch..."
-    git clone -b "$BRANCH" "https://$GITHUB_TOKEN@github.com/$REPO_URL/$REPO_NAME.git" "/var/www/$REPO_NAME"
+    git clone -b "$BRANCH" "${REPO_URL}" "/var/www/$REPO_NAME"
     cd "/var/www/$REPO_NAME" || exit
 fi
 
